@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mini PortFolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--My CSS Section-->
+        <link rel="stylesheet" href="./Scripts/lib/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./Scripts/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="./Scripts/lib/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./Content/app.css">
+    </head>
+    <body>
+        <!--Navigation Section-->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" id="logo" href="index.html"><img src="Assets/Images/Logo.svg" alt="Logo"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html"><i class="fa fa-user fa-lg"></i> About Me </a></li>
+                    <li><a href="contact.html"><i class="fa fa-envelope fa-lg"></i> Contact</a></li>
+                    <li class="active"><a href="projects.html"><i class="fa fa-briefcase fa-lg"></i> Projects</a></li>
+                </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!--Main Content-->
+        <div class="container">
+            <h1>My Projects</h1>
+            <div class="row" id="projects">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="Assets/Images/project-1.png" alt="project 1">
+                        <div class="caption">
+                            <h4 id="project1captionH4"></h4>
+                            <p id="project1captionP"></p>
+                            <p><a href="http://movieposterassignment3.azurewebsites.net/assignment3/" class="btn btn-primary" target="_blank" role="button">Check the work</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="Assets/Images/project-2.png" alt="project 2">
+                        <div class="caption">
+                            <h4 id="project2captionH4"></h4>
+                            <p id="project2captionP"></p>
+                            <p><a href="http://navigationwithlistsassignment4.azurewebsites.net/assignment4/" class="btn btn-primary" target="_blank" role="button">Check the work</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="Assets/Images/project-3.png" alt="project 3">
+                        <div class="caption">
+                            <h4 id="project3captionH4"></h4>
+                            <p id="project3captionP"></p>
+                            <p><a href="http://comp1030module13.azurewebsites.net/m/" target="_blank" class="btn btn-primary" role="button">Check the work</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Section-->
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <div class="col-md-4 col-md-offset-4">
+                    <div>
+                        <a href="https://www.facebook.com/daniel.ramos.1257604" target="_blank" class="socialMedia"><i class="fa fa-facebook-square fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/daniel-ramos-5a464831/" target="_blank" class="socialMedia"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        <a href="https://github.com/danielRamosGithub" target="_blank" class="socialMedia"><i class="fa fa-github fa-2x"></i></a>    
+                    </div>
+                    <h5>&copy Daniel Ramos Mini-Portfolio - All rights reserved</h5>
+                </div>
+            </div>
+        </nav>
+    <!--JavaScript Section-->
+    <script src="./Scripts/lib/jquery/dist/jquery.min.js"></script>
+    <script src="./Scripts/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./Scripts/app.js"></script>
+    </body>
+</html>

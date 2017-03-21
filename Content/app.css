@@ -1,0 +1,27 @@
+/*
+ * App.css
+ * Author: Daniel Costa Ramos - 200354269
+ * Web	site: Mini-Portfolio
+ * Description: CSS file to manage the style for the pages.
+ */
+
+/* Importing font */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    background-color: #FFEBCD;
+    font-family: 'Lato', sans-serif;
+}
+
+/* CSS for About Me page */
+div.row > div > img {
+    border-radius: 100%;
+    width: 250px;
+}
+
+div.row > div > p {
+    /*border: 1px solid red;*/
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: justify;
+}
