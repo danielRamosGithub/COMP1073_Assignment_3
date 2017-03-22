@@ -1,0 +1,29 @@
+{
+    "index": [
+        {
+            "image": "<img src='Assets/Images/profile-pic.jpg' alt='Personal Image'>",
+            "title": "Who am I?",
+            "text": "My name is Daniel. I am a three year experienced developer, creating web systems using Java language with object orientation. Knowledge of Javascript, HTML5 and CSS3 technologies, together with Oracle DataBase. Now, I am expanding my knowledge on web development and taking a Web Desgin course at Georgian College hoping in the future to be a better developer, coder, thinker and person."
+        }
+    ],
+    "projects": [
+        {
+            "image": "<img src='Assets/Images/project-1.png' alt='project 1'>",
+            "title": "Project: Movie Poster",
+            "description": "Replicate a movie poster using online HTML and CSS.",
+            "url": "http://movieposterassignment3.azurewebsites.net/assignment3/"
+        },
+        {
+            "image": "<img src='Assets/Images/project-2.png' alt='project 2'>",
+            "title": "Project: Navigation with lists",
+            "description": "Sample website using lists.",
+            "url": "http://navigationwithlistsassignment4.azurewebsites.net/assignment4/"
+        },
+        {
+            "image": "<img src='Assets/Images/project-3.png' alt='project 3'>",
+            "title": "Project: Responsive design",
+            "description": "Reponsive layout good for any type of device.",
+            "url": "http://comp1030module13.azurewebsites.net/m/"
+        }
+    ]
+}

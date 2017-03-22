@@ -25,3 +25,13 @@ div.row > div > p {
     padding: 10px;
     text-align: justify;
 }
+
+/* Projects Page */
+
+div.projects-content {
+    display: flex;
+}
+
+div.panel-default-size {
+    width: 80%;
+}
